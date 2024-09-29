@@ -1,0 +1,35 @@
+body {
+    font-family: cursive, Lucida;
+    background-color: #0d0d0e;
+    color: #fb8561;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown {
+    text-align: center;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.time {
+    font-size: 3rem;
+    margin: 0 10px;
+}
+
+.time-label {
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+#message {
+    font-size: 2rem;
+    margin-top: 20px;
+}
